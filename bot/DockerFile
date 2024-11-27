@@ -1,0 +1,25 @@
+# Etapa de build
+FROM ubuntu:latest AS build
+
+# Instala as dependências
+RUN apt-get update
+RUN apt-get install openjdk-17-jdk maven -y
+
+# Copia os arquivos do projeto
+COPY . /app
+WORKDIR /app/back-end-IARA/bot   # Se seu pom.xml estiver em BACK-END-IARA, altere o diretório de trabalho
+
+# Executa o Maven para compilar o projeto
+RUN mvn clean install 
+
+# Etapa de execução
+FROM openjdk:17-jdk-slim
+
+# Expondo a porta
+EXPOSE 8080
+
+# Copia o JAR gerado da etapa de build
+COPY --from=build /app/BACK-END-IARA/target/deploy_render-1.0.0.jar app.jar
+
+# Executa o JAR
+ENTRYPOINT [ "java", "-jar", "app.jar" ]

@@ -1,0 +1,8 @@
+/home/larissa/Documentos/sistema geral IARA/back-end/back-end-IARA/bot/src/main/java/iara/bot/Application.java
+/home/larissa/Documentos/sistema geral IARA/back-end/back-end-IARA/bot/src/main/java/iara/bot/config/AppConfig.java
+/home/larissa/Documentos/sistema geral IARA/back-end/back-end-IARA/bot/src/main/java/iara/bot/config/WebConfig.java
+/home/larissa/Documentos/sistema geral IARA/back-end/back-end-IARA/bot/src/main/java/iara/bot/controller/IaraController.java
+/home/larissa/Documentos/sistema geral IARA/back-end/back-end-IARA/bot/src/main/java/iara/bot/model/MensagemModel.java
+/home/larissa/Documentos/sistema geral IARA/back-end/back-end-IARA/bot/src/main/java/iara/bot/model/UserModel.java
+/home/larissa/Documentos/sistema geral IARA/back-end/back-end-IARA/bot/src/main/java/iara/bot/util/IaraFileReader.java
+/home/larissa/Documentos/sistema geral IARA/back-end/back-end-IARA/bot/src/main/java/iara/bot/util/RemoverAcentos.java

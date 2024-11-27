@@ -1,0 +1,8 @@
+iara/bot/Application.class
+iara/bot/model/MensagemModel.class
+iara/bot/controller/IaraController.class
+iara/bot/config/WebConfig.class
+iara/bot/util/RemoverAcentos.class
+iara/bot/model/UserModel.class
+iara/bot/util/IaraFileReader.class
+iara/bot/config/AppConfig.class
