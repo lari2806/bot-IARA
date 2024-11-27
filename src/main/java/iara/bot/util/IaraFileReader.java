@@ -1,36 +1,38 @@
 package iara.bot.util;
 
-import java.io.File;
-import java.io.FileNotFoundException;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.io.Resource;
+import org.springframework.stereotype.Component;
+
+import java.io.InputStream;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
-
 @Component
 public class IaraFileReader {
 
-    @Value("src/main/java/iara/bot/mensagens-chatbot/mensagens.txt")
-    private String filePath;
-
+    // Injetar o arquivo mensagens.txt como um Resource do classpath
+    @Value("classpath:/mensagens.txt")
+    private Resource fileResource;
 
     public String leitorIara(String entradaUsuario) {
         
+        // Remover acentos da entrada
         entradaUsuario = RemoverAcentos.remover(entradaUsuario.toLowerCase());
-        
+
+        // Encontrar a palavra-chave na entrada
         String palavraChave = encontrarPalavra(entradaUsuario);
 
         if (palavraChave == null) {
             System.out.println("Palavra chave não foi encontrada");
         }
 
-        File file = new File(filePath);
-        System.out.println("Caminho do arquivo: " + filePath);
+        // Abrir o arquivo usando o Resource
+        try (InputStream inputStream = fileResource.getInputStream();
+             Scanner reader = new Scanner(inputStream, "UTF-8")) {
 
-        try (Scanner reader = new Scanner(file, "UTF-8")) {
             while (reader.hasNextLine()) {
                 String linha = reader.nextLine();
                 System.out.println(linha);
@@ -47,24 +49,22 @@ public class IaraFileReader {
                         if (resposta.startsWith("Iara:")) {
                             return resposta;
                         }
-                        
                     }
                 }
             }
-        } catch (FileNotFoundException e) {
-            System.out.println("Erro: Arquivo não encontrado.");
-            e.printStackTrace();
         } catch (Exception e) {
-            System.out.println("Um erro ocorreu ao ler o arquivo.");
+            System.out.println("Erro ao processar o arquivo.");
             e.printStackTrace();
         }
 
         return "Desculpe, não consegui encontrar uma resposta para sua pergunta. Tente novamente.";
     }
 
-    public String encontrarPalavra(String entradaUsuario){
+    public String encontrarPalavra(String entradaUsuario) {
+        // Definir as palavras-chave
         final Set<String> palavrasChave = new HashSet<>(Arrays.asList("duvida", "pergunta", "ajuda"));
 
+        // Separar as palavras da entrada do usuário
         String[] palavrasUsuario = entradaUsuario.split("\\s+");
 
         String palavraChaveEncontrada = null;
@@ -76,10 +76,9 @@ public class IaraFileReader {
         }
 
         if (palavraChaveEncontrada == null) {
-             System.out.println("Desculpe, não consegui identificar a palavra-chave. Tente ser mais específico.");
+            System.out.println("Desculpe, não consegui identificar a palavra-chave. Tente ser mais específico.");
         }
 
         return palavraChaveEncontrada;
-
     }
 }
