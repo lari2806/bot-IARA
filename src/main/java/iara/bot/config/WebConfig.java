@@ -14,8 +14,8 @@ public class WebConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**") // Permitir em todos os endpoints
             .allowedOrigins(
-                "http://127.0.0.1:5500/",
-                "https://back-end-iara-production.up.railway.app",
+                "http://127.0.0.1:5501/",
+                "https://back-end-iara.onrender.com",
                 "https://mrdudae.github.io/IARA-2.0/",
                 "https://mrdudae.github.io/IARA-2.0/chat.html"
             ) // Origem do frontend permitida
