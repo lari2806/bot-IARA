@@ -1,18 +1,26 @@
-FROM ubuntu:latest AS build
+# Fase 1: Build
+FROM maven:3.9.5-eclipse-temurin-17 AS build
 
-RUN apt-get update
-RUN apt-get install openjdk-17-jdk -y
-COPY . .
+# Copiar apenas o necessário para o build
+WORKDIR /app
+COPY pom.xml ./
+COPY src ./src
 
-RUN apt-get install maven -y
-RUN mvn clean install 
+# Instalar dependências e construir o projeto
+RUN mvn clean package -DskipTests
 
+# Fase 2: Runtime
 FROM openjdk:17-jdk-slim
 
+# Expor a porta da aplicação
 EXPOSE 8080
 
-COPY --from=build /target/bot-0.0.1-SNAPSHOT.jar app.jar
+# Copiar o JAR gerado da fase de build para a imagem final
+WORKDIR /app
+COPY --from=build /app/target/bot-0.0.1-SNAPSHOT.jar app.jar
 
-COPY src/main/java/iara/bot/util/mensagens.txt /app/util/mensagens.txt
+# Copiar o arquivo mensagens.txt para o contêiner
+COPY src/main/java/iara/bot/mensagens-chatbot/mensagens.txt /app/mensagens/mensagens.txt
 
-ENTRYPOINT [ "java", "-jar", "app.jar" ]
+# Comando de inicialização
+ENTRYPOINT ["java", "-jar", "app.jar"]
