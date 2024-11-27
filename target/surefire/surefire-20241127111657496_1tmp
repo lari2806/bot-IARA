@@ -1,5 +1,5 @@
 #surefire
-#Wed Nov 27 11:08:21 BRT 2024
+#Wed Nov 27 11:16:57 BRT 2024
 classPathUrl.50=/home/larissa/.m2/repository/net/minidev/json-smart/2.5.1/json-smart-2.5.1.jar
 classPathUrl.51=/home/larissa/.m2/repository/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.jar
 classPathUrl.52=/home/larissa/.m2/repository/org/ow2/asm/asm/9.6/asm-9.6.jar
@@ -70,7 +70,7 @@ classPathUrl.16=/home/larissa/.m2/repository/org/springframework/boot/spring-boo
 classPathUrl.17=/home/larissa/.m2/repository/ch/qos/logback/logback-classic/1.5.8/logback-classic-1.5.8.jar
 classPathUrl.18=/home/larissa/.m2/repository/ch/qos/logback/logback-core/1.5.8/logback-core-1.5.8.jar
 classPathUrl.19=/home/larissa/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.23.1/log4j-to-slf4j-2.23.1.jar
-pluginPid=53317
+pluginPid=56333
 shutdown=EXIT
 classPathUrl.4=/home/larissa/.m2/repository/org/springdoc/springdoc-openapi-starter-common/2.2.0/springdoc-openapi-starter-common-2.2.0.jar
 classPathUrl.5=/home/larissa/.m2/repository/io/swagger/core/v3/swagger-core-jakarta/2.2.15/swagger-core-jakarta-2.2.15.jar
