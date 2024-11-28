@@ -30,6 +30,17 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+	<dependency>
+  			<groupId>edu.stanford.nlp</groupId>
+    		<artifactId>stanford-corenlp</artifactId>
+   			<version>4.5.4</version> <!-- Verifique a última versão no repositório Maven -->
+	</dependency>
+	<dependency>
+			<groupId>edu.stanford.nlp</groupId>
+			<artifactId>stanford-corenlp</artifactId>
+			<version>4.5.4</version>
+			<classifier>models</classifier>
+	</dependency>
 		  <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
