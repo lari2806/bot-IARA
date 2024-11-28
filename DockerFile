@@ -1,26 +1,18 @@
-# Fase 1: Build
 FROM maven:3.9.5-eclipse-temurin-17 AS build
 
-# Copiar apenas o necessário para o build
 WORKDIR /app
 COPY pom.xml ./
 COPY src ./src
 
-# Instalar dependências e construir o projeto
 RUN mvn clean package -DskipTests
 
-# Fase 2: Runtime
 FROM openjdk:17-jdk-slim
 
-# Expor a porta da aplicação
 EXPOSE 8080
 
-# Copiar o JAR gerado da fase de build para a imagem final
 WORKDIR /app
 COPY --from=build /app/target/bot-0.0.1-SNAPSHOT.jar app.jar
 
-# Copiar o arquivo mensagens.txt do classpath para o contêiner
 COPY --from=build /app/src/main/resources/mensagens.txt /app/mensagens/mensagens.txt
 
-# Comando de inicialização
 ENTRYPOINT ["java", "-jar", "app.jar"]
