@@ -14,11 +14,11 @@ public class WebConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**") // Permitir em todos os endpoints
             .allowedOrigins(
+                "https://mrdudae.github.io/IARA-2.0/chat.html",
                 "http://127.0.0.1:5501/",
                 "http://127.0.0.1:5500/",
                 "https://back-end-iara.onrender.com",
-                "https://mrdudae.github.io/IARA-2.0/",
-                "https://mrdudae.github.io/IARA-2.0/chat.html"
+                "https://mrdudae.github.io/IARA-2.0/"
             ) // Origem do frontend permitida
             .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
             .allowedHeaders("*") // Permitir todos os headers
