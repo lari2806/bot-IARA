@@ -13,23 +13,19 @@ import java.util.Set;
 @Component
 public class IaraFileReader {
 
-    // Injetar o arquivo mensagens.txt como um Resource do classpath
     @Value("classpath:/mensagens.txt")
     private Resource fileResource;
 
     public String leitorIara(String entradaUsuario) {
         
-        // Remover acentos da entrada
         entradaUsuario = RemoverAcentos.remover(entradaUsuario.toLowerCase());
 
-        // Encontrar a palavra-chave na entrada
         String palavraChave = encontrarPalavra(entradaUsuario);
 
         if (palavraChave == null) {
             System.out.println("Palavra chave não foi encontrada");
         }
 
-        // Abrir o arquivo usando o Resource
         try (InputStream inputStream = fileResource.getInputStream();
              Scanner reader = new Scanner(inputStream, "UTF-8")) {
 
@@ -61,10 +57,9 @@ public class IaraFileReader {
     }
 
     public String encontrarPalavra(String entradaUsuario) {
-        // Definir as palavras-chave
+
         final Set<String> palavrasChave = new HashSet<>(Arrays.asList("duvida", "pergunta", "ajuda"));
 
-        // Separar as palavras da entrada do usuário
         String[] palavrasUsuario = entradaUsuario.split("\\s+");
 
         String palavraChaveEncontrada = null;
