@@ -1,6 +1,34 @@
 # Comprimentos
+user: Você está disponível agora?
+Iara: Sim, estou aqui para ajudar a qualquer momento.
+
+user: Você é confiável?
+Iara: Sim, fui projetada para fornecer informações precisas e seguras.
+
+user: De onde você tira suas respostas?
+Iara: Minhas respostas são baseadas em leis, dados e informações sobre proteção às mulheres e à comunidade LGBTQIA+.
+
+user: Você é uma pessoa real?
+Iara: Não, sou um chatbot programado para ajudar.
+
+user: Como posso interagir com você?
+Iara: Basta digitar suas dúvidas ou perguntas, e eu tentarei responder.
+
+user: Oi, tudo bem?
+Iara: Oi! Estou bem, obrigada por perguntar. Como posso ajudar você hoje?
+
+user: Você é um robô?
+Iara: Sim, sou um sistema chamado Iara, aqui para ajudar e apoiar você.
+
+user: Posso fazer perguntas sobre leis?
+Iara: Claro! Estou pronta para responder dúvidas sobre leis relacionadas à proteção da mulher e da comunidade LGBTQIA+.
+
+user: Qual é o seu propósito?
+Iara: Sou um sistema criado para ajudar pessoas vítimas de violência física, verbal ou psicológica.
+
 user: oi 
 Iara: Olá! Eu sou a Iara. Como posso ajudar você hoje?
+
 user: Olá
 Iara: Olá! Eu sou a Iara. Como posso ajudar você hoje?
 
@@ -52,13 +80,13 @@ Iara: estou bem e você?
 ### dúvidas
 
 
-User: Qual é o horário de funcionamento?
+user: Qual é o horário de funcionamento?
 Iara: Nosso sistema de chat com Iara funciona 24 horas, para ser atendido por um profissional é necessário o agendamento.
 
-User: Você pode me dar mais informações sobre o sistema Iara?
+user: Você pode me dar mais informações sobre o sistema Iara?
 Iara: Meu nome é Iara, com o intuito de ajudar e apoiar pessoas vítimas de vi, tanto fisicas quanto verbais. Tendo seu foco voltado principalmente para mulheres e pessoas da comunidade LGBTQIA+.
 
-User: Como faço para falar com o suporte?
+user: Como faço para falar com o suporte?
 Iara: Para entrar em contato conosco, basta acessar nosso contato no whatsApp: 85999059763.
 
 
@@ -86,7 +114,30 @@ Iara: Claro, qual sua dúvida?
 
 ### Leis
 
-# Lei Maria da Penha 
+# Lei Maria da Penha
+user: Posso registrar uma denúncia mesmo sem provas?
+Iara: Sim, mas a denúncia será investigada e provas poderão ser coletadas durante o processo.
+
+user: A Lei Maria da Penha protege mulheres estrangeiras no Brasil?
+Iara: Sim, a lei protege qualquer mulher que esteja em território brasileiro.
+
+user: E se o agressor não obedecer às medidas protetivas?
+Iara: Ele pode ser preso imediatamente por descumprimento de ordem judicial.
+
+user: Onde encontro delegacias especializadas?
+Iara: Você pode consultar a Delegacia da Mulher mais próxima ou ligar para o 180.
+
+user: A lei cobre violência verbal?
+Iara: Sim, a violência psicológica, incluindo verbal, é protegida pela lei.
+
+user: Como posso pedir medidas protetivas com base na Lei Maria da Penha?
+Iara: Você pode solicitar em uma delegacia da mulher ou diretamente ao juiz. As medidas incluem o afastamento do agressor e proteção à vítima.
+
+user: A Lei Maria da Penha protege mulheres trans?
+Iara: Sim, mulheres trans também estão protegidas pela lei, em contextos de violência doméstica ou familiar.
+
+user: A Lei Maria da Penha protege menores de idade?
+Iara: Sim, qualquer mulher, independentemente da idade, está protegida pela lei.
 
 user: gostaria de saber sobre a lei Maria da Penha
 Iara: Claro, a lei 11.340 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que você deseja por gentileza.
@@ -300,6 +351,31 @@ Iara: Não há um prazo específico para a vítima denunciar, mas é importante 
 
 
 #lei Carolina dieckman
+
+user: E se o conteúdo já foi amplamente divulgado?
+Iara: Você pode solicitar a remoção do conteúdo em plataformas digitais e entrar com ações legais contra os responsáveis.
+
+user: A lei protege vítimas de phishing?
+Iara: Sim, ela se aplica a invasões que comprometem dados pessoais.
+
+user: Posso processar quem compartilha o conteúdo?
+Iara: Sim, todos que participam da divulgação sem autorização podem ser responsabilizados.
+
+user: Existe prazo para denunciar crimes digitais?
+Iara: Sim, mas o prazo depende da gravidade do crime. Consulte um advogado para detalhes.
+
+user: Como as provas são coletadas em crimes digitais?
+Iara: Prints, gravações e registros de acesso podem ser usados como provas.
+
+user: Como a Lei Carolina Dieckman protege a privacidade?
+Iara: Criminalizando a invasão de dispositivos eletrônicos e a divulgação não autorizada de dados pessoais.
+
+user: O que faço se minhas fotos íntimas forem vazadas?
+Iara: Registre um boletim de ocorrência e solicite a remoção do conteúdo. A Lei Carolina Dieckman ampara sua denúncia.
+
+user: Essa lei protege contra invasão de redes sociais?
+Iara: Sim, a lei abrange qualquer invasão de dispositivos informáticos ou contas digitais.
+
 user: O que é a Lei Carolina Dieckman?
 Iara: A Lei Carolina Dieckman, formalmente conhecida como Lei 12.737/2012, é uma legislação brasileira que criminaliza a invasão de dispositivos informáticos para obtenção, adulteração ou destruição de dados sem autorização.
 
@@ -468,125 +544,148 @@ Iara: As perspectivas incluem maior conscientização, melhoria na aplicação d
 
 
 #Lei do Feminicídio
+user: Posso solicitar proteção se temo por minha vida?
+Iara: Sim, procure uma Delegacia da Mulher e peça medidas protetivas.
 
-User: O que é a Lei do Feminicídio?
+user: Feminicídio se aplica a vítimas grávidas?
+Iara: Sim, e a pena pode ser agravada.
+
+user: Como a lei é aplicada em comunidades indígenas?
+Iara: Ela é aplicada de forma igual, respeitando os direitos das mulheres em todas as comunidades.
+
+user: Existe uma idade mínima para que feminicídio seja aplicado?
+Iara: Não, a lei protege mulheres de todas as idades.
+
+user: O feminicídio pode ser motivado por questões religiosas?
+Iara: Sim, se for comprovado que a motivação envolve discriminação ou violência de gênero.
+
+user: O que caracteriza feminicídio?
+Iara: É o homicídio de uma mulher motivado por questões de gênero, como violência doméstica ou discriminação.
+
+user: Como denunciar feminicídio?
+Iara: Use o Disque 180 ou procure a delegacia mais próxima. Delegacias especializadas podem ajudar.
+
+user: Feminicídio se aplica a relacionamentos homoafetivos?
+Iara: Sim, se for motivado por discriminação de gênero.
+
+user: O que é a Lei do Feminicídio?
 Iara: A Lei do Feminicídio (Lei nº 13.104/2015) é uma legislação que altera o Código Penal para incluir o feminicídio como uma circunstância qualificadora do crime de homicídio. Ela define feminicídio como o assassinato de uma mulher em razão de violência doméstica, familiar ou por discriminação de gênero.
 
-User: Qual a pena prevista para o feminicídio?
+user: Qual a pena prevista para o feminicídio?
 Iara: A pena para o feminicídio é de 12 a 30 anos de reclusão. Em algumas circunstâncias, como crimes cometidos durante a gestação, contra menores de 14 anos, maiores de 60 anos ou na presença de familiares, a pena pode ser agravada.
 
-User: Quais são os casos que caracterizam feminicídio?
+user: Quais são os casos que caracterizam feminicídio?
 Iara: O feminicídio ocorre quando uma mulher é assassinada por razões de gênero, ou seja, em situações de violência doméstica, familiar, ou em decorrência do ódio ou menosprezo à condição de ser mulher. Crimes relacionados a abuso, controle ou dominação sobre a vítima também podem caracterizar feminicídio.
 
-User: Qual é a diferença entre homicídio e feminicídio?
+user: Qual é a diferença entre homicídio e feminicídio?
 Iara: A principal diferença é que o feminicídio é um homicídio praticado especificamente contra mulheres em razão do gênero, enquanto o homicídio, de maneira geral, não faz distinção de gênero. O feminicídio tem agravantes devido ao contexto de violência de gênero.
 
-User: Em que situações a Lei do Feminicídio se aplica?
+user: Em que situações a Lei do Feminicídio se aplica?
 Iara: A Lei do Feminicídio se aplica em casos de homicídio que envolvem violência de gênero, como violência doméstica e familiar, ou em situações de discriminação e ódio contra mulheres. Ela protege as vítimas e agrava a pena do agressor nesses casos.
 
-User: Quando a Lei do Feminicídio foi sancionada?
+user: Quando a Lei do Feminicídio foi sancionada?
 Iara: A Lei do Feminicídio foi sancionada em 9 de março de 2015 pela então presidente Dilma Rousseff.
 
-User: Feminicídio é crime hediondo?
+user: Feminicídio é crime hediondo?
 Iara: Sim, o feminicídio é classificado como crime hediondo, o que significa que é considerado um crime grave, com punições mais severas e regime inicial de cumprimento da pena em regime fechado.
 
-User: Como a Lei do Feminicídio protege as mulheres?
+user: Como a Lei do Feminicídio protege as mulheres?
 Iara: A Lei do Feminicídio agrava a pena para homicídios praticados contra mulheres em razão de gênero, buscando coibir a violência doméstica e o assassinato de mulheres por discriminação ou desprezo à condição feminina.
 
-User: Feminicídio pode ser aplicado em caso de violência psicológica?
+user: Feminicídio pode ser aplicado em caso de violência psicológica?
 Iara: A violência psicológica por si só não caracteriza feminicídio, mas se houver homicídio associado a essa violência, a motivação de gênero pode levar à aplicação da Lei do Feminicídio.
 
-User: A Lei do Feminicídio se aplica a todos os homicídios contra mulheres?
+user: A Lei do Feminicídio se aplica a todos os homicídios contra mulheres?
 Iara: Não. A Lei do Feminicídio só se aplica quando o homicídio ocorre em razão do gênero, ou seja, quando o assassinato é motivado por violência doméstica, familiar ou discriminação de gênero.
 
-User: Quais fatores aumentam a pena no caso de feminicídio?
+user: Quais fatores aumentam a pena no caso de feminicídio?
 Iara: A pena pode ser aumentada se o crime for praticado contra mulheres gestantes, menores de 14 anos, maiores de 60 anos, ou com deficiência, ou ainda se for cometido na presença de descendentes ou ascendentes da vítima.
 
-User: Feminicídio pode ser cometido por mulheres?
+user: Feminicídio pode ser cometido por mulheres?
 Iara: Tecnicamente sim, uma mulher pode cometer feminicídio, desde que o crime tenha como motivação o ódio ou menosprezo à condição de ser mulher.
 
-User: Feminicídio pode ocorrer fora do ambiente doméstico?
+user: Feminicídio pode ocorrer fora do ambiente doméstico?
 Iara: Sim, o feminicídio pode ocorrer fora do ambiente doméstico, desde que a motivação seja a discriminação de gênero ou violência em razão da condição de ser mulher.
 
-User: O que a Lei do Feminicídio mudou no Código Penal?
+user: O que a Lei do Feminicídio mudou no Código Penal?
 Iara: A Lei do Feminicídio acrescentou o feminicídio como uma qualificadora do crime de homicídio, aumentando a pena e reconhecendo esse tipo de crime como uma forma específica de violência de gênero.
 
-User: Existe um tipo de feminicídio que não é relacionado à violência doméstica?
+user: Existe um tipo de feminicídio que não é relacionado à violência doméstica?
 Iara: Sim, o feminicídio também pode ocorrer fora do contexto de violência doméstica, quando motivado por ódio ou discriminação de gênero, como em casos de crimes de ódio contra mulheres.
 
-User: Feminicídio se aplica a mulheres trans?
+user: Feminicídio se aplica a mulheres trans?
 Iara: Em 2020, o Superior Tribunal de Justiça (STJ) decidiu que o feminicídio também pode ser aplicado a mulheres transgênero, reconhecendo a proteção do gênero feminino independentemente do sexo biológico.
 
-User: Qual a importância da Lei do Feminicídio no combate à violência?
+user: Qual a importância da Lei do Feminicídio no combate à violência?
 Iara: A Lei do Feminicídio é importante porque reconhece a gravidade da violência de gênero, cria uma tipificação específica para homicídios motivados por discriminação de gênero e agrava as penas para esses crimes.
 
-User: Feminicídio é um tipo de homicídio qualificado?
+user: Feminicídio é um tipo de homicídio qualificado?
 Iara: Sim, o feminicídio é uma forma de homicídio qualificado, o que significa que ele é considerado mais grave e tem penas mais severas.
 
-User: Feminicídio pode ser cometido por alguém que não conhece a vítima?
+user: Feminicídio pode ser cometido por alguém que não conhece a vítima?
 Iara: Sim, o feminicídio pode ser cometido por desconhecidos, desde que o crime tenha como motivação o ódio ou discriminação contra a vítima por ela ser mulher.
 
-User: O feminicídio pode ser considerado premeditado?
+user: O feminicídio pode ser considerado premeditado?
 Iara: Sim, o feminicídio pode ser premeditado, mas também pode ocorrer sem premeditação, dependendo do contexto em que o crime ocorre.
 
-User: Como denunciar casos de feminicídio?
+user: Como denunciar casos de feminicídio?
 Iara: Casos de feminicídio ou risco de feminicídio podem ser denunciados através da Central de Atendimento à Mulher (Disque 180) ou nas delegacias especializadas em atendimento à mulher.
 
-User: Feminicídio é a mesma coisa que violência doméstica?
+user: Feminicídio é a mesma coisa que violência doméstica?
 Iara: Não, feminicídio é uma forma extrema de violência contra a mulher que resulta em sua morte, enquanto violência doméstica engloba diversas formas de abuso, como violência física, psicológica, sexual e patrimonial.
 
-User: O feminicídio pode ser cometido em contexto de relacionamento amoroso?
+user: O feminicídio pode ser cometido em contexto de relacionamento amoroso?
 Iara: Sim, o feminicídio frequentemente ocorre em contextos de relacionamentos amorosos, especialmente em situações de violência doméstica ou controle possessivo.
 
-User: O feminicídio sempre ocorre após um histórico de violência?
+user: O feminicídio sempre ocorre após um histórico de violência?
 Iara: Não necessariamente. O feminicídio pode ocorrer sem um histórico prévio de violência, embora, em muitos casos, a vítima já tenha sofrido agressões anteriores.
 
-User: Feminicídio tem agravantes se for praticado contra uma mulher grávida?
+user: Feminicídio tem agravantes se for praticado contra uma mulher grávida?
 Iara: Sim, a pena para feminicídio pode ser agravada se o crime for praticado contra uma mulher grávida, devido à vulnerabilidade adicional da vítima.
 
-User: O agressor pode alegar defesa pessoal para feminicídio?
+user: O agressor pode alegar defesa pessoal para feminicídio?
 Iara: Alegações de defesa pessoal podem ser feitas, mas serão analisadas cuidadosamente pela justiça. Em casos de feminicídio, a motivação por discriminação de gênero ou violência doméstica tende a invalidar essa justificativa.
 
-User: Feminicídio pode ocorrer no trabalho?
+user: Feminicídio pode ocorrer no trabalho?
 Iara: Sim, o feminicídio pode ocorrer no ambiente de trabalho, desde que o homicídio seja motivado por discriminação ou ódio relacionado ao gênero da vítima.
 
-User: A Lei do Feminicídio se aplica a todas as idades?
+user: A Lei do Feminicídio se aplica a todas as idades?
 Iara: Sim, a Lei do Feminicídio se aplica a mulheres de todas as idades. Além disso, a pena pode ser agravada se a vítima for menor de 14 anos ou maior de 60 anos.
 
-User: Feminicídio pode ser cometido por um parente?
+user: Feminicídio pode ser cometido por um parente?
 Iara: Sim, feminicídio pode ser cometido por um parente, especialmente em contextos de violência doméstica ou familiar.
 
-User: A pena para feminicídio pode ser reduzida em algum caso?
+user: A pena para feminicídio pode ser reduzida em algum caso?
 Iara: Em casos excepcionais, como a colaboração com as investigações, a pena pode ser atenuada, mas o feminicídio é um crime grave e normalmente não permite grandes reduções de pena.
 
-User: Feminicídio pode ser aplicado em caso de tentativa de homicídio?
+user: Feminicídio pode ser aplicado em caso de tentativa de homicídio?
 Iara: Não, a Lei do Feminicídio se aplica exclusivamente a homicídios consumados. Tentativas de homicídio contra mulheres são enquadradas em outras legislações, como a Lei Maria da Penha.
 
-User: Feminicídio pode ser enquadrado como lesão corporal seguida de morte?
+user: Feminicídio pode ser enquadrado como lesão corporal seguida de morte?
 Iara: Se a intenção do agressor era matar a vítima por motivo de gênero, o crime será considerado feminicídio, mesmo que tenha começado como lesão corporal.
 
-User: A pena de feminicídio pode ser cumprida em liberdade?
+user: A pena de feminicídio pode ser cumprida em liberdade?
 Iara: Não, por ser considerado um crime hediondo, o feminicídio exige que a pena seja cumprida inicialmente em regime fechado, sem possibilidade de fiança.
 
-User: Feminicídio pode ser cometido por vingança?
+user: Feminicídio pode ser cometido por vingança?
 Iara: Sim, se a vingança for motivada por fatores de gênero, como controle ou possessividade, o crime pode ser classificado como feminicídio.
 
-User: Feminicídio pode ser cometido em áreas rurais ou isoladas?
+user: Feminicídio pode ser cometido em áreas rurais ou isoladas?
 Iara: Sim, o feminicídio pode ocorrer em qualquer local, inclusive em áreas rurais ou isoladas, desde que a motivação seja o gênero da vítima.
 
-User: Feminicídio pode ocorrer em comunidades indígenas?
+user: Feminicídio pode ocorrer em comunidades indígenas?
 Iara: Sim, o feminicídio pode ocorrer em qualquer comunidade, inclusive em comunidades indígenas, e a lei se aplica igualmente em todos os casos.
 
-User: Feminicídio pode ser considerado crime de ódio?
+user: Feminicídio pode ser considerado crime de ódio?
 Iara: Sim, o feminicídio pode ser considerado um crime de ódio, especialmente quando motivado por misoginia ou desprezo pela condição feminina.
 
-User: Feminicídio pode ser praticado por alguém com distúrbios mentais?
+user: Feminicídio pode ser praticado por alguém com distúrbios mentais?
 Iara: Se o autor do crime for considerado mentalmente incapaz, o caso será tratado de forma diferente, mas ainda pode ser enquadrado como feminicídio dependendo das circunstâncias.
 
-User: Feminicídio pode ser cometido por ciúmes?
+user: Feminicídio pode ser cometido por ciúmes?
 Iara: Sim, o feminicídio pode ser motivado por ciúmes, especialmente em situações de controle abusivo ou possessivo sobre a vítima.
 
-User: Feminicídio é comum em relações abusivas?
+user: Feminicídio é comum em relações abusivas?
 Iara: Sim, muitas vezes o feminicídio é o desfecho trágico de relações
 
 
@@ -623,6 +722,30 @@ Iara: Sim, muitas vezes o feminicídio é o desfecho trágico de relações
 
 
 #emergencia
+user: Quem pode me acompanhar em uma denúncia?
+Iara: Você pode levar um amigo, familiar ou advogado para apoio.
+
+user: O que fazer em caso de ameaça imediata?
+Iara: Ligue para o 190 ou procure o posto policial mais próximo.
+
+user: Posso denunciar pelo WhatsApp?
+Iara: Alguns serviços, como o Disque 180, possuem canais digitais para denúncia.
+
+user: Preciso de um advogado para denunciar?
+Iara: Não, mas ter apoio jurídico pode ajudar no processo.
+
+user: Como proteger meus filhos em casos de violência doméstica?
+Iara: Solicite medidas protetivas que incluam segurança para os dependentes.
+
+user: Estou em perigo, o que faço?
+Iara: Ligue para o 180 ou 190 imediatamente. Eles podem oferecer ajuda em situações de emergência.
+
+user: Como denunciar anonimamente?
+Iara: Você pode usar o Disque 180 para fazer denúncias anônimas.
+
+user: Existe suporte 24 horas?
+Iara: Sim, o Disque 180 funciona 24 horas por dia, todos os dias da semana.
+
 user: Como faço para resetar minha senha?
 Iara: Para resetar sua senha, acesse a página de recuperação de senha e siga as instruções.
 
@@ -633,21 +756,82 @@ Iara: Voce pode encontrar o suporte técnico no nosso site, na seção de "Conta
 
 #ajuda
 
-user: Locais de apoio
-Iara: Não possuo essas informações ainda.
+user: Existe suporte jurídico gratuito?
+Iara: Sim, a Defensoria Pública oferece apoio jurídico para quem não pode pagar.
 
-user: quais os locais de apoio mais proximos
-Iara: Não possuo essas informações ainda.
+user: Como encontrar um abrigo para mulheres?
+Iara: Ligue para o 180 para informações sobre abrigos próximos.
 
-user: Locais de apoio mais proximos
-Iara: Não possuo essas informações ainda.
+user: Como pedir apoio psicológico?
+Iara: Existem ONGs e serviços públicos que oferecem suporte psicológico gratuito.
 
-user: quero saber os locais de apoio mais proximos
-Iara: Não possuo essas informações ainda.
+user: Posso levar meus filhos para um abrigo?
+Iara: Sim, os abrigos geralmente aceitam dependentes da vítima.
 
-user: gostaria de saber sobre a lei 1234
-Iara: a lei 1234...
+user: Existem ONGs que ajudam vítimas LGBTQIA+?
+Iara: Sim, algumas ONGs, como a ABGLT, oferecem suporte especializado.
 
-user: locais de apoio
-Iara: 
+user: Onde encontro ajuda para vítimas de violência?
+Iara: Você pode procurar Delegacias da Mulher ou ligar para o 180. Existem abrigos e ONGs que oferecem suporte especializado.
+
+user: Quais serviços estão disponíveis para vítimas LGBTQIA+?
+Iara: Existem ONGs e associações específicas que oferecem apoio jurídico, psicológico e social.
+
+user: Como saber se há um abrigo próximo?
+Iara: Consulte serviços locais ou ligue para o 180 para mais informações sobre abrigos próximos.
+
+user: Quem posso contatar para suporte psicológico?
+Iara: Muitos centros de apoio e ONGs oferecem suporte psicológico gratuito ou de baixo custo.
+
+#Duvidas sobre Procedimentos
+
+user: Como funcionam as investigações em crimes de violência?
+Iara: A polícia reúne provas e ouve testemunhas para levar o caso à Justiça.
+
+user: Quanto tempo leva para obter medidas protetivas?
+Iara: Em casos urgentes, as medidas podem ser concedidas em até 48 horas.
+
+user: O que acontece se eu retirar a denúncia?
+Iara: A investigação pode continuar dependendo da gravidade do caso.
+
+user: Como faço para mudar meu endereço por segurança?
+Iara: Informe a situação à polícia e peça apoio para relocação.
+
+user: Preciso ir ao tribunal para dar meu depoimento?
+Iara: Em muitos casos, sim. Mas você pode solicitar proteção durante o processo.
+
+#Conscientização e Educação
+
+user: Onde encontrar campanhas educativas?
+Iara: Consulte ONGs locais ou procure informações no site do governo.
+
+user: Como ajudar uma amiga que sofre violência?
+Iara: Incentive-a a denunciar e ofereça apoio emocional e logístico.
+
+user: Posso educar meus filhos sobre essas leis?
+Iara: Sim, é importante ensinar sobre respeito e igualdade desde cedo.
+
+user: Existem cartilhas sobre direitos da mulher?
+Iara: Sim, muitas ONGs e órgãos governamentais oferecem materiais educativos.
+
+user: Como combater o preconceito contra mulheres trans?
+Iara: Promova debates, apoie legislações inclusivas e denuncie discriminação.
+
+
+#Outros Casos
+
+user: O que fazer se testemunhar violência?
+Iara: Ligue para o 190 e, se possível, ajude a vítima a buscar apoio.
+
+user: Como proteger minhas informações online?
+Iara: Use senhas fortes, evite clicar em links suspeitos e ative autenticação de dois fatores.
+
+user: Como denunciar vazamento de informações privadas?
+Iara: Registre um boletim de ocorrência e informe a plataforma onde o conteúdo foi publicado.
+
+user: Existe apoio para homens vítimas de violência?
+Iara: Sim, homens também podem buscar ajuda na polícia ou em ONGs específicas.
+
+user: Como reportar casos de homofobia?
+Iara: Denuncie à polícia ou procure organizações de apoio LGBTQIA+.
 
