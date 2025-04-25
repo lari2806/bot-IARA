@@ -4,7 +4,12 @@
 
 **[back-end-IARA](https://github.com/lari2806/back-end-IARA)**
 
-<h2>Sobre os colaboradores</h2>
+<h3>O objetivo desse repositório é criar o bot e deixa-lo funcionando e estando em um só repositório para 
+não haver complicações em testes, conectando-o com o repositório:</h3>
+
+**[IARA-2.0](https://github.com/mrdudae/IARA-2.0)**
+
+<h2>Colaboradores:</h2>
 
 | Nome         | GitHub Stats                                                                                                       | Linguagens Mais Usadas                                                                                                    |
 |--------------|--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
